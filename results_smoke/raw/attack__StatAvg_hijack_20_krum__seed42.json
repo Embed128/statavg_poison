@@ -1,0 +1,274 @@
+{
+  "config": {
+    "strategy": "statavg",
+    "weight_agg": "krum",
+    "num_rounds": 15,
+    "local_epochs": 2,
+    "batch_size": 512,
+    "learning_rate": 0.002,
+    "malicious_frac": 0.2,
+    "attack_type": "hijack",
+    "mean_alpha": 20.0,
+    "var_beta": 100.0,
+    "n_inflate": 5.0,
+    "defense_type": "vanilla",
+    "trim_ratio": 0.2,
+    "mad_threshold": 3.5,
+    "n_clip_mult": 2.0,
+    "use_class_weights": true,
+    "seed": 42,
+    "eval_every": 1
+  },
+  "malicious_clients": [
+    7,
+    9
+  ],
+  "flagged_clients": [],
+  "mean_rel_err": 10.212791815563863,
+  "var_log_err": 2.0357303835898906,
+  "final_accuracy": 0.49566666666666664,
+  "final_macro_f1": 0.25053300291345676,
+  "final_weighted_f1": 0.3701193305750155,
+  "final_per_class_recall": [
+    0.0,
+    0.0,
+    0.0,
+    0.3138888888888889,
+    0.9289855072463769,
+    0.495
+  ],
+  "class_names": [
+    "ddos",
+    "dos",
+    "injection",
+    "mitm",
+    "normal",
+    "password"
+  ],
+  "det_tp": 0.0,
+  "det_fp": 0.0,
+  "det_fn": 2.0,
+  "det_precision": 0.0,
+  "det_recall": 0.0,
+  "det_f1": 0.0,
+  "det_fpr": 0.0,
+  "history": [
+    {
+      "accuracy": 0.46,
+      "macro_f1": 0.1050228310502283,
+      "weighted_f1": 0.2898630136986301,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "round": 1
+    },
+    {
+      "accuracy": 0.46,
+      "macro_f1": 0.1050228310502283,
+      "weighted_f1": 0.2898630136986301,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "round": 2
+    },
+    {
+      "accuracy": 0.46,
+      "macro_f1": 0.1050228310502283,
+      "weighted_f1": 0.2898630136986301,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "round": 3
+    },
+    {
+      "accuracy": 0.46,
+      "macro_f1": 0.1050228310502283,
+      "weighted_f1": 0.2898630136986301,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "round": 4
+    },
+    {
+      "accuracy": 0.46,
+      "macro_f1": 0.1050228310502283,
+      "weighted_f1": 0.2898630136986301,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "round": 5
+    },
+    {
+      "accuracy": 0.46,
+      "macro_f1": 0.1050228310502283,
+      "weighted_f1": 0.2898630136986301,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "round": 6
+    },
+    {
+      "accuracy": 0.4603333333333333,
+      "macro_f1": 0.10615423405324466,
+      "weighted_f1": 0.29059365940888215,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0033333333333333335
+      ],
+      "round": 7
+    },
+    {
+      "accuracy": 0.4603333333333333,
+      "macro_f1": 0.10615423405324466,
+      "weighted_f1": 0.29059365940888215,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0033333333333333335
+      ],
+      "round": 8
+    },
+    {
+      "accuracy": 0.4726666666666667,
+      "macro_f1": 0.14566816314834272,
+      "weighted_f1": 0.3161820613239087,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9974637681159421,
+        0.13833333333333334
+      ],
+      "round": 9
+    },
+    {
+      "accuracy": 0.4643333333333333,
+      "macro_f1": 0.11965263330911609,
+      "weighted_f1": 0.29928585392042156,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9996376811594203,
+        0.045
+      ],
+      "round": 10
+    },
+    {
+      "accuracy": 0.48283333333333334,
+      "macro_f1": 0.18650732963702366,
+      "weighted_f1": 0.33858169035072405,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.05555555555555555,
+        0.9858695652173913,
+        0.26
+      ],
+      "round": 11
+    },
+    {
+      "accuracy": 0.4796666666666667,
+      "macro_f1": 0.1736825696576504,
+      "weighted_f1": 0.3315761760953058,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.03888888888888889,
+        0.991304347826087,
+        0.21333333333333335
+      ],
+      "round": 12
+    },
+    {
+      "accuracy": 0.49366666666666664,
+      "macro_f1": 0.22828384258283904,
+      "weighted_f1": 0.3601749548244104,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.175,
+        0.9655797101449275,
+        0.39
+      ],
+      "round": 13
+    },
+    {
+      "accuracy": 0.495,
+      "macro_f1": 0.23417761930057704,
+      "weighted_f1": 0.3618136036538292,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.2638888888888889,
+        0.972463768115942,
+        0.31833333333333336
+      ],
+      "round": 14
+    },
+    {
+      "accuracy": 0.49566666666666664,
+      "macro_f1": 0.25053300291345676,
+      "weighted_f1": 0.3701193305750155,
+      "per_class_recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.3138888888888889,
+        0.9289855072463769,
+        0.495
+      ],
+      "round": 15
+    }
+  ],
+  "run_id": "attack__StatAvg_hijack_20_krum__seed42",
+  "group": "attack",
+  "label": "StatAvg_hijack_20_krum",
+  "dataset_path": "dataset/synthetic_dataset.csv",
+  "num_clients": 10,
+  "dirichlet_alpha": 0.5,
+  "elapsed_sec": 2.04
+}

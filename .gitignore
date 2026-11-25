@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large external datasets (download separately per README)
+dataset/dataset.csv
+dataset/dataset_*.csv
+dataset/Train_test_*.csv
+dataset/*.zip
+dataset/*.tar.gz

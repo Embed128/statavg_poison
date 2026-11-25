@@ -1,0 +1,8 @@
+group,label,strategy,weight_agg,attack_type,malicious_frac,mean_alpha,defense_type,n_seeds,acc_mean,acc_std,macro_f1_mean,macro_f1_std,mean_err,var_log_err,det_precision,det_recall,det_f1,det_fpr
+attack,StatAvg_hijack_20_krum,statavg,krum,hijack,0.2,20.0,vanilla,1,0.49566666666666664,0.0,0.25053300291345676,0.0,10.212791815563863,2.0357303835898906,0.0,0.0,0.0,0.0
+attack,StatAvg_hijack_20_vanilla,statavg,fedavg,hijack,0.2,20.0,vanilla,1,0.3625,0.0,0.2767627651374513,0.0,10.212791815563863,2.0357303835898906,0.0,0.0,0.0,0.0
+baseline,FedAvg_clean,fedavg,fedavg,none,0.0,20.0,vanilla,1,0.8121666666666667,0.0,0.7929406869856125,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+baseline,StatAvg_clean,statavg,fedavg,none,0.0,20.0,vanilla,1,0.8138333333333333,0.0,0.7959199995424403,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+defense,StatAvg_hijack_20_mad,statavg,fedavg,hijack,0.2,20.0,mad_filter,1,0.8111666666666667,0.0,0.7930019148470969,0.0,0.018217850660569728,0.013804770650761244,1.0,1.0,1.0,0.0
+defense,StatAvg_hijack_20_median,statavg,fedavg,hijack,0.2,20.0,median,1,0.8145,0.0,0.7975173138248551,0.0,0.04935467452796366,0.029695647739364617,0.0,0.0,0.0,0.0
+defense,StatAvg_hijack_20_trimmed,statavg,fedavg,hijack,0.2,20.0,trimmed,1,0.8103333333333333,0.0,0.7914429131867892,0.0,0.04620471960916209,0.06171414165807865,0.0,0.0,0.0,0.0
